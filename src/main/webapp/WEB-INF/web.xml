@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>addservletf</servlet-name>
+  	<display-name>addservletf</display-name>
+  	<description></description>
+  	<servlet-class>com.addservletf</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addservlet2f</servlet-name>
+  	<display-name>addservlet2f</display-name>
+  	<description></description>
+  	<servlet-class>com.addservlet2f</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>delete</servlet-name>
+  	<display-name>delete</display-name>
+  	<description></description>
+  	<servlet-class>com.delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<display-name>Register</display-name>
+  	<description></description>
+  	<servlet-class>com.Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>update</servlet-name>
+  	<display-name>update</display-name>
+  	<description></description>
+  	<servlet-class>com.update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>verifyUser</servlet-name>
+  	<display-name>verifyUser</display-name>
+  	<description></description>
+  	<servlet-class>com.verifyUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addservletf</servlet-name>
+  	<url-pattern>/addservletf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addservlet2f</servlet-name>
+  	<url-pattern>/addservlet2f</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>delete</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>update</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>verifyUser</servlet-name>
+  	<url-pattern>/verifyUser</url-pattern>
+  </servlet-mapping>
+</web-app>
